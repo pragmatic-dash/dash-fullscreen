@@ -1,0 +1,11 @@
+include dash_fullscreen/dash_fullscreen.min.js
+include dash_fullscreen/dash_fullscreen.min.js.map
+include dash_fullscreen/async-*.js
+include dash_fullscreen/async-*.js.map
+include dash_fullscreen/*-shared.js
+include dash_fullscreen/*-shared.js.map
+include dash_fullscreen/metadata.json
+include dash_fullscreen/package-info.json
+include README.md
+include LICENSE
+include package.json

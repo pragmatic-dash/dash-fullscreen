@@ -24,14 +24,14 @@
           ]
         },
         "required": false,
-        "description": ""
+        "description": "The children of this component"
       },
       "style": {
         "type": {
           "name": "object"
         },
         "required": false,
-        "description": "",
+        "description": "The style of this component",
         "defaultValue": {
           "value": "{}",
           "computed": false

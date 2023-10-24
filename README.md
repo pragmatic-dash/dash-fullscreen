@@ -1,6 +1,8 @@
-# dash fullscreen
+# Dash Fullscreen
 
-dash fullscreen is a Dash component library.
+Dash Fullscreen allows toggling fullscreen display for any child element, generally suitable for enlarging images or charts.
+
+![](dash-fullscreen-example.gif)
 
 Get started with:
 1. Install Dash and its dependencies: https://dash.plotly.com/installation
@@ -94,4 +96,3 @@ If you have selected install_dependencies during the prompt, you can skip this p
     1. Publish this repository to GitHub
     2. Tag your GitHub repository with the plotly-dash tag so that it appears here: https://github.com/topics/plotly-dash
     3. Create a post in the Dash community forum: https://community.plotly.com/c/dash
-# dash-fullscreen

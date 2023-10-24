@@ -13,12 +13,14 @@ which is editable by the user.
 
 Keyword arguments:
 
-- children (a list of or a singular dash component, string or number | list; optional)
+- children (a list of or a singular dash component, string or number | list; optional):
+    The children of this component.
 
 - id (string; optional):
     The ID used to identify this component in Dash callbacks.
 
-- style (dict; optional)"""
+- style (dict; optional):
+    The style of this component."""
     _children_props = []
     _base_nodes = ['children']
     _namespace = 'dash_fullscreen'

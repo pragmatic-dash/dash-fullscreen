@@ -15,9 +15,9 @@ displays it.
 It renders an input with the property `value`
 which is editable by the user.
 Keyword arguments:
-- `children` (a list of or a singular dash component, string or number | Array; optional)
+- `children` (a list of or a singular dash component, string or number | Array; optional): The children of this component
 - `id` (String; optional): The ID used to identify this component in Dash callbacks.
-- `style` (Dict; optional)
+- `style` (Dict; optional): The style of this component
 """
 function dashfullscreen(; kwargs...)
         available_props = Symbol[:children, :id, :style]

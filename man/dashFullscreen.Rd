@@ -14,11 +14,11 @@ dashFullscreen(children=NULL, id=NULL, style=NULL)
 }
 
 \arguments{
-\item{children}{A list of or a singular dash component, string or number | unnamed list. }
+\item{children}{A list of or a singular dash component, string or number | unnamed list. The children of this component}
 
 \item{id}{Character. The ID used to identify this component in Dash callbacks.}
 
-\item{style}{Named list. }
+\item{style}{Named list. The style of this component}
 }
 
 \value{named list of JSON elements corresponding to React.js properties and their values}

@@ -35,9 +35,9 @@ export default class DashFullscreen extends React.Component {
 
     render() {
         const { id, children, style } = this.props;
-        style.position = "relative"
+        const mergedStyle = { ...style, "position": "relative" };
         return (
-            <div style={style} id={id || ''}>
+            <div style={mergedStyle} id={id || ''}>
                 <MyFullScreen>
                     {children}
                 </MyFullScreen>
@@ -57,12 +57,19 @@ DashFullscreen.propTypes = {
      */
     id: PropTypes.string,
 
+    /**
+     * The children of this component
+     */
     children: PropTypes.oneOfType([
         PropTypes.node,
         PropTypes.array,
       ]),
-      
+
+    /**
+     * The style of this component
+     */
     style: PropTypes.object,
+
     /**
      * Dash-assigned callback that should be called to report property changes
      * to Dash, to make them available for callbacks.

@@ -1,5 +1,5 @@
 import dash_fullscreen
-from dash import Dash, callback, html, Input, Output
+from dash import Dash, html
 
 app = Dash(__name__)
 
@@ -7,8 +7,16 @@ app.layout = html.Div(
     [
         dash_fullscreen.DashFullscreen(
             html.Div(
-                "sss",
-                style={"height": "100%", "width": "100%"},
+                "Hello World",
+                style={
+                    "height": "100%",
+                    "width": "100%",
+                    "backgroundColor": "red",
+                    "display": "flex",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "color": "white",
+                },
                 id="fullscreen-content",
             ),
             style={"height": "200px", "width": "200px", "backgroundColor": "blue"},
